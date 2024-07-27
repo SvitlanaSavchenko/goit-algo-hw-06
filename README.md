@@ -38,37 +38,37 @@
 
 2. Визначення маршруту та його довжини
 Щоб визначити маршрут поїздки по столицях, ми використовуємо вже створений цикл в графі. Довжину поїздки можна приблизно обчислити, якщо розрахувати відстані між координатами кожної столиці.
-      From Vienna to Brussels: 917.34 km
-      From Brussels to Sofia: 1701.41 km
-      From Sofia to Zagreb: 680.46 km
-      From Zagreb to Prague: 487.53 km
-      From Prague to Copenhagen: 635.78 km
-      From Copenhagen to Tallinn: 839.33 km
-      From Tallinn to Helsinki: 82.31 km
-      From Helsinki to Paris: 1912.95 km
-      From Paris to Berlin: 879.70 km
-      From Berlin to Athens: 1803.12 km
-      From Athens to Budapest: 1123.88 km
-      From Budapest to Reykjavik: 3075.58 km
-      From Reykjavik to Dublin: 1492.70 km
-      From Dublin to Rome: 1888.67 km
-      From Rome to Riga: 1867.47 km
-      From Riga to Vilnius: 262.42 km
-      From Vilnius to Luxembourg: 1410.00 km
-      From Luxembourg to Amsterdam: 296.63 km
-      From Amsterdam to Oslo: 914.67 km
-      From Oslo to Warsaw: 1065.30 km
-      From Warsaw to Lisbon: 2764.10 km
-      From Lisbon to Bucharest: 2982.34 km
-      From Bucharest to Bratislava: 806.45 km
-      From Bratislava to Ljubljana: 305.06 km
-      From Ljubljana to Madrid: 1601.64 km
-      From Madrid to Stockholm: 2596.20 km
-      From Stockholm to Bern: 1546.08 km
-      From Bern to London: 748.66 km
-      From London to Vienna: 1238.91 km
+     / From Vienna to Brussels: 917.34 km
+     / From Brussels to Sofia: 1701.41 km
+     / From Sofia to Zagreb: 680.46 km
+     / From Zagreb to Prague: 487.53 km
+     / From Prague to Copenhagen: 635.78 km
+     / From Copenhagen to Tallinn: 839.33 km
+     / From Tallinn to Helsinki: 82.31 km
+     / From Helsinki to Paris: 1912.95 km
+     / From Paris to Berlin: 879.70 km
+     / From Berlin to Athens: 1803.12 km
+     / From Athens to Budapest: 1123.88 km
+     / From Budapest to Reykjavik: 3075.58 km
+     / From Reykjavik to Dublin: 1492.70 km
+     / From Dublin to Rome: 1888.67 km
+     / From Rome to Riga: 1867.47 km
+     / From Riga to Vilnius: 262.42 km
+     / From Vilnius to Luxembourg: 1410.00 km
+     / From Luxembourg to Amsterdam: 296.63 km
+     / From Amsterdam to Oslo: 914.67 km
+     / From Oslo to Warsaw: 1065.30 km
+     / From Warsaw to Lisbon: 2764.10 km
+     / From Lisbon to Bucharest: 2982.34 km
+     / From Bucharest to Bratislava: 806.45 km
+     / From Bratislava to Ljubljana: 305.06 km
+     / From Ljubljana to Madrid: 1601.64 km
+     / From Madrid to Stockholm: 2596.20 km
+     / From Stockholm to Bern: 1546.08 km
+     / From Bern to London: 748.66 km
+     / From London to Vienna: 1238.91 km
       
-      Total tour distance: 37926.67 km.
+     / Total tour distance: 37926.67 km.
 
 
 ### Завдання 2:
