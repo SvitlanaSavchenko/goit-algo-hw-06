@@ -68,7 +68,7 @@
      * From Bern to London: 748.66 km
      * From London to Vienna: 1238.91 km
       
-    * Total tour distance: 37926.67 km.*
+      **Total tour distance: 37926.67 km.**
 
 
 ### Завдання 2:
