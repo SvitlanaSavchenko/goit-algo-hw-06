@@ -134,89 +134,88 @@ Number of BFS paths: 2
 Вибір стартового вузла
 start_city = 'Paris'
 
-Shortest path from Paris to Paris:
-Path: ['Paris'], Length: 0
-
-Shortest path from Paris to Helsinki:
-Path: ['Paris', 'Helsinki'], Length: 3
-
-Shortest path from Paris to Berlin:
-Path: ['Paris', 'Berlin'], Length: 5
-
-Shortest path from Paris to Tallinn:
-Path: ['Paris', 'Helsinki', 'Tallinn'], Length: 12
-
-Shortest path from Paris to Athens:
-Path: ['Paris', 'Berlin', 'Athens'], Length: 12
-
-Shortest path from Paris to Copenhagen:
-Path: ['Paris', 'Helsinki', 'Tallinn', 'Copenhagen'], Length: 17
-
-Shortest path from Paris to Budapest:
-Path: ['Paris', 'Berlin', 'Athens', 'Budapest'], Length: 14
-
-Shortest path from Paris to Reykjavik:
-Path: ['Paris', 'Berlin', 'Athens', 'Budapest', 'Reykjavik'], Length: 23
-
-Shortest path from Paris to Prague:
-Path: ['Paris', 'Helsinki', 'Tallinn', 'Copenhagen', 'Prague'], Length: 25
-
-Shortest path from Paris to Dublin:
-Path: ['Paris', 'Berlin', 'Athens', 'Budapest', 'Reykjavik', 'Dublin'], Length: 33
-
-Shortest path from Paris to Zagreb:
-Path: ['Paris', 'Helsinki', 'Tallinn', 'Copenhagen', 'Prague', 'Zagreb'], Length: 28
-
-Shortest path from Paris to Sofia:
-Path: ['Paris', 'Helsinki', 'Tallinn', 'Copenhagen', 'Prague', 'Zagreb', 'Sofia'], Length: 32
+Shortest path from Paris to Vienna:
+Path: ['Paris', 'Helsinki', 'Tallinn', 'Copenhagen', 'Prague', 'Zagreb', 'Sofia', 'Brussels', 'Vienna'], Length: 28
 
 Shortest path from Paris to Brussels:
-Path: ['Paris', 'Helsinki', 'Tallinn', 'Copenhagen', 'Prague', 'Zagreb', 'Sofia', 'Brussels'], Length: 42
+Path: ['Paris', 'Helsinki', 'Tallinn', 'Copenhagen', 'Prague', 'Zagreb', 'Sofia', 'Brussels'], Length: 27
+
+Shortest path from Paris to Sofia:
+Path: ['Paris', 'Helsinki', 'Tallinn', 'Copenhagen', 'Prague', 'Zagreb', 'Sofia'], Length: 20
+
+Shortest path from Paris to Zagreb:
+Path: ['Paris', 'Helsinki', 'Tallinn', 'Copenhagen', 'Prague', 'Zagreb'], Length: 17    
+
+Shortest path from Paris to Prague:
+Path: ['Paris', 'Helsinki', 'Tallinn', 'Copenhagen', 'Prague'], Length: 10
+
+Shortest path from Paris to Copenhagen:
+Path: ['Paris', 'Helsinki', 'Tallinn', 'Copenhagen'], Length: 6
+
+Shortest path from Paris to Tallinn:
+Path: ['Paris', 'Helsinki', 'Tallinn'], Length: 4
+
+Shortest path from Paris to Helsinki:
+Path: ['Paris', 'Helsinki'], Length: 1
+
+Shortest path from Paris to Berlin:
+Path: ['Paris', 'Berlin'], Length: 4
+
+Shortest path from Paris to Athens:
+Path: ['Paris', 'Berlin', 'Athens'], Length: 7
+
+Shortest path from Paris to Budapest:
+Path: ['Paris', 'Berlin', 'Athens', 'Budapest'], Length: 8
+
+Shortest path from Paris to Reykjavik:
+Path: ['Paris', 'Berlin', 'Athens', 'Budapest', 'Reykjavik'], Length: 11
+
+Shortest path from Paris to Dublin:
+Path: ['Paris', 'Berlin', 'Athens', 'Budapest', 'Reykjavik', 'Dublin'], Length: 18      
 
 Shortest path from Paris to Rome:
-Path: ['Paris', 'Berlin', 'Athens', 'Budapest', 'Reykjavik', 'Dublin', 'Rome'], Length: 38
+Path: ['Paris', 'Berlin', 'Athens', 'Budapest', 'Reykjavik', 'Dublin', 'Rome'], Length: 
+19
 
 Shortest path from Paris to Riga:
-Path: ['Paris', 'Berlin', 'Athens', 'Budapest', 'Reykjavik', 'Dublin', 'Rome', 'Riga'], Length: 45
-
-Shortest path from Paris to Vienna:
-Path: ['Paris', 'Helsinki', 'Tallinn', 'Copenhagen', 'Prague', 'Zagreb', 'Sofia', 'Brussels', 'Vienna'], Length: 43
-
-Shortest path from Paris to London:
-Path: ['Paris', 'Helsinki', 'Tallinn', 'Copenhagen', 'Prague', 'Zagreb', 'Sofia', 'Brussels', 'Vienna', 'London'], Length: 44
-
-Shortest path from Paris to Bern:
-Path: ['Paris', 'Helsinki', 'Tallinn', 'Copenhagen', 'Prague', 'Zagreb', 'Sofia', 'Brussels', 'Vienna', 'London', 'Bern'], Length: 47
+Path: ['Paris', 'Berlin', 'Athens', 'Budapest', 'Reykjavik', 'Dublin', 'Rome', 'Riga'], 
+Length: 20
 
 Shortest path from Paris to Vilnius:
-Path: ['Paris', 'Berlin', 'Athens', 'Budapest', 'Reykjavik', 'Dublin', 'Rome', 'Riga', 'Vilnius'], Length: 51
-
-Shortest path from Paris to Stockholm:
-Path: ['Paris', 'Helsinki', 'Tallinn', 'Copenhagen', 'Prague', 'Zagreb', 'Sofia', 'Brussels', 'Vienna', 'London', 'Bern', 'Stockholm'], Length: 49
-
-Shortest path from Paris to Madrid:
-Path: ['Paris', 'Helsinki', 'Tallinn', 'Copenhagen', 'Prague', 'Zagreb', 'Sofia', 'Brussels', 'Vienna', 'London', 'Bern', 'Stockholm', 'Madrid'], Length: 58
+Path: ['Paris', 'Berlin', 'Athens', 'Budapest', 'Reykjavik', 'Dublin', 'Rome', 'Riga', 'Vilnius'], Length: 29
 
 Shortest path from Paris to Luxembourg:
-Path: ['Paris', 'Berlin', 'Athens', 'Budapest', 'Reykjavik', 'Dublin', 'Rome', 'Riga', 'Vilnius', 'Luxembourg'], Length: 61
-
-Shortest path from Paris to Ljubljana:
-Path: ['Paris', 'Helsinki', 'Tallinn', 'Copenhagen', 'Prague', 'Zagreb', 'Sofia', 'Brussels', 'Vienna', 'London', 'Bern', 'Stockholm', 'Madrid', 'Ljubljana'], Length: 66        
+Path: ['Paris', 'Berlin', 'Athens', 'Budapest', 'Reykjavik', 'Dublin', 'Rome', 'Riga', 'Vilnius', 'Luxembourg'], Length: 32
 
 Shortest path from Paris to Amsterdam:
-Path: ['Paris', 'Berlin', 'Athens', 'Budapest', 'Reykjavik', 'Dublin', 'Rome', 'Riga', 'Vilnius', 'Luxembourg', 'Amsterdam'], Length: 66
-
-Shortest path from Paris to Bratislava:
-Path: ['Paris', 'Helsinki', 'Tallinn', 'Copenhagen', 'Prague', 'Zagreb', 'Sofia', 'Brussels', 'Vienna', 'London', 'Bern', 'Stockholm', 'Madrid', 'Ljubljana', 'Bratislava'], Length: 70
+Path: ['Paris', 'Berlin', 'Athens', 'Budapest', 'Reykjavik', 'Dublin', 'Rome', 'Riga', 'Vilnius', 'Luxembourg', 'Amsterdam'], Length: 38
 
 Shortest path from Paris to Oslo:
-Path: ['Paris', 'Berlin', 'Athens', 'Budapest', 'Reykjavik', 'Dublin', 'Rome', 'Riga', 'Vilnius', 'Luxembourg', 'Amsterdam', 'Oslo'], Length: 71
-
-Shortest path from Paris to Bucharest:
-Path: ['Paris', 'Helsinki', 'Tallinn', 'Copenhagen', 'Prague', 'Zagreb', 'Sofia', 'Brussels', 'Vienna', 'London', 'Bern', 'Stockholm', 'Madrid', 'Ljubljana', 'Bratislava', 'Bucharest'], Length: 76
+Path: ['Paris', 'Berlin', 'Athens', 'Budapest', 'Reykjavik', 'Dublin', 'Rome', 'Riga', 'Vilnius', 'Luxembourg', 'Amsterdam', 'Oslo'], Length: 42
 
 Shortest path from Paris to Warsaw:
-Path: ['Paris', 'Berlin', 'Athens', 'Budapest', 'Reykjavik', 'Dublin', 'Rome', 'Riga', 'Vilnius', 'Luxembourg', 'Amsterdam', 'Oslo', 'Warsaw'], Length: 79
+Path: ['Paris', 'Berlin', 'Athens', 'Budapest', 'Reykjavik', 'Dublin', 'Rome', 'Riga', 'Vilnius', 'Luxembourg', 'Amsterdam', 'Oslo', 'Warsaw'], Length: 48
 
 Shortest path from Paris to Lisbon:
-Path: ['Paris', 'Helsinki', 'Tallinn', 'Copenhagen', 'Prague', 'Zagreb', 'Sofia', 'Brussels', 'Vienna', 'London', 'Bern', 'Stockholm', 'Madrid', 'Ljubljana', 'Bratislava', 'Bucharest', 'Lisbon'], Length: 79
+Path: ['Paris', 'Berlin', 'Athens', 'Budapest', 'Reykjavik', 'Dublin', 'Rome', 'Riga', 'Vilnius', 'Luxembourg', 'Amsterdam', 'Oslo', 'Warsaw', 'Lisbon'], Length: 54
+
+Shortest path from Paris to Bucharest:
+Path: ['Paris', 'Berlin', 'Athens', 'Budapest', 'Reykjavik', 'Dublin', 'Rome', 'Riga', 'Vilnius', 'Luxembourg', 'Amsterdam', 'Oslo', 'Warsaw', 'Lisbon', 'Bucharest'], Length: 57
+
+Shortest path from Paris to Bratislava:
+Path: ['Paris', 'Helsinki', 'Tallinn', 'Copenhagen', 'Prague', 'Zagreb', 'Sofia', 'Brussels', 'Vienna', 'London', 'Bern', 'Stockholm', 'Madrid', 'Ljubljana', 'Bratislava'], Length: 61
+
+Shortest path from Paris to Ljubljana:
+Path: ['Paris', 'Helsinki', 'Tallinn', 'Copenhagen', 'Prague', 'Zagreb', 'Sofia', 'Brussels', 'Vienna', 'London', 'Bern', 'Stockholm', 'Madrid', 'Ljubljana'], Length: 56       
+
+Shortest path from Paris to Madrid:
+Path: ['Paris', 'Helsinki', 'Tallinn', 'Copenhagen', 'Prague', 'Zagreb', 'Sofia', 'Brussels', 'Vienna', 'London', 'Bern', 'Stockholm', 'Madrid'], Length: 55
+
+Shortest path from Paris to Stockholm:
+Path: ['Paris', 'Helsinki', 'Tallinn', 'Copenhagen', 'Prague', 'Zagreb', 'Sofia', 'Brussels', 'Vienna', 'London', 'Bern', 'Stockholm'], Length: 47
+
+Shortest path from Paris to Bern:
+Path: ['Paris', 'Helsinki', 'Tallinn', 'Copenhagen', 'Prague', 'Zagreb', 'Sofia', 'Brussels', 'Vienna', 'London', 'Bern'], Length: 37
+
+Shortest path from Paris to London:
+Path: ['Paris', 'Helsinki', 'Tallinn', 'Copenhagen', 'Prague', 'Zagreb', 'Sofia', 'Brussels', 'Vienna', 'London'], Length: 32

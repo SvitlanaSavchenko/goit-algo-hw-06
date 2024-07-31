@@ -1,8 +1,6 @@
-import networkx as nx
 import random
 
 # Граф з попереднього завдання
-G = nx.Graph()
 capitals_coords = {
     "Vienna": (16.3738, 48.2082),
     "Brussels": (4.3517, 50.8503),
@@ -36,28 +34,60 @@ capitals_coords = {
 }
 
 # Додавання вузлів для столиць
-for capital in capitals_coords:
-    G.add_node(capital, pos=capitals_coords[capital])
+capitals = list(capitals_coords.keys())
+
+# Створення графа у вигляді словника
+graph = {capital: {} for capital in capitals}
 
 # Додавання ребер для створення циклу та ваги ребер
-capitals = list(capitals_coords.keys())
 for i in range(len(capitals)):
     # Вага ребра може бути рандомною або розрахованою
     weight = random.randint(1, 10)
-    G.add_edge(capitals[i], capitals[(i + 1) % len(capitals)], weight=weight)
+    current_city = capitals[i]
+    next_city = capitals[(i + 1) % len(capitals)]
+    graph[current_city][next_city] = weight
+    graph[next_city][current_city] = weight  # Оскільки граф неорієнтований
 
-# Функція для виведення найкоротших шляхів
-def find_shortest_paths(graph, start_node):
-    # Використання алгоритму Дейкстри для знаходження найкоротших шляхів
-    lengths, paths = nx.single_source_dijkstra(graph, start_node)
+# Реалізація алгоритму Дейкстри без використання бібліотек
+def dijkstra(graph, start):
+    # Ініціалізація відстаней та попередників
+    distances = {node: float('inf') for node in graph}
+    distances[start] = 0
+    previous_nodes = {node: None for node in graph}
+    unvisited_nodes = set(graph.keys())
     
-    # Виведення результатів
-    for target_node in paths:
-        print(f"Shortest path from {start_node} to {target_node}:")
-        print(f"Path: {paths[target_node]}, Length: {lengths[target_node]}\n")
+    while unvisited_nodes:
+        # Вибір вузла з найменшою відстанню
+        current_node = min(unvisited_nodes, key=lambda node: distances[node])
+        unvisited_nodes.remove(current_node)
+        
+        # Оновлення відстаней до сусідів
+        for neighbor, weight in graph[current_node].items():
+            if neighbor in unvisited_nodes:
+                new_distance = distances[current_node] + weight
+                if new_distance < distances[neighbor]:
+                    distances[neighbor] = new_distance
+                    previous_nodes[neighbor] = current_node
+    
+    return distances, previous_nodes
+
+# Функція для знаходження найкоротшого шляху
+def find_shortest_path(previous_nodes, target):
+    path = []
+    while target is not None:
+        path.append(target)
+        target = previous_nodes[target]
+    return path[::-1]
 
 # Вибір стартового вузла
 start_city = 'Paris'
 
 # Знаходження найкоротших шляхів від стартового вузла
-find_shortest_paths(G, start_city)
+distances, previous_nodes = dijkstra(graph, start_city)
+
+# Виведення результатів
+for target_city in capitals:
+    if target_city != start_city:
+        path = find_shortest_path(previous_nodes, target_city)
+        print(f"Shortest path from {start_city} to {target_city}:")
+        print(f"Path: {path}, Length: {distances[target_city]}\n")
